@@ -10,7 +10,7 @@ The code will be released soon.
 
 Paper
 ------------------------------------------------------------
-Yucheng Shi, Siyu Wang, Yahong Han. "Curls & Whey: Boosting Black-Box Adversarial Attacks." Full Paper in CVPR 2019 (Oral).
+Yucheng Shi, Siyu Wang, Yahong Han. "Curls & Whey: Boosting Black-Box Adversarial Attacks." CVPR 2019 (Oral).
 
 Reference
 ------------------------------------------------------------
