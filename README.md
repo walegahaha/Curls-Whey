@@ -35,10 +35,14 @@ The code is developed using python 3.5 and pytorch 0.4.1 on Ubuntu 16.04. NVIDIA
 
 Usage
 ------------------------------------------------------------
-unzip temp.zip
-pip --no-cache-dir install  -r requirements.txt
-
-python untargeted_attack.py
+./bmodels/inceptionv3/inceptionv3.pt    (https://pan.baidu.com/s/1_j7gVcGcWaobgJi7K11e6A)   code: tcax <Br/>
+./fmodels/resnet/resnet101.pt           (https://pan.baidu.com/s/19kQBVwhtZw4mgHuarwFQjQ)   code: z2w9 <Br/>
+./temp.zip                              (https://pan.baidu.com/s/1CMvpGyGKwFpKV1lPhr4FUA)   code: qk6y <Br/>
+<Br/>
+unzip temp.zip <Br/>
+pip --no-cache-dir install  -r requirements.txt <Br/>
+<Br/>
+python untargeted_attack.py <Br/>
 python targeted_attack.py
 
 Examples
