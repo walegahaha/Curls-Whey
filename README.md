@@ -38,7 +38,6 @@ Usage
 ./bmodels/inceptionv3/inceptionv3.pt&ensp;&ensp;&ensp;&ensp;(https://pan.baidu.com/s/1_j7gVcGcWaobgJi7K11e6A)&ensp;&ensp;&ensp;&ensp;&ensp; code: tcax <Br/>
 ./fmodels/resnet/resnet101.pt&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;(https://pan.baidu.com/s/19kQBVwhtZw4mgHuarwFQjQ)&ensp;&ensp; code: z2w9 <Br/>
 ./temp.zip&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;(https://pan.baidu.com/s/1CMvpGyGKwFpKV1lPhr4FUA)&ensp;&ensp;&ensp; code: qk6y <Br/>
-./temp.zip(https://pan.baidu.com/s/1CMvpGyGKwFpKV1lPhr4FUA)   code: qk6y <Br/>
 <Br/>
 unzip temp.zip <Br/>
 pip --no-cache-dir install  -r requirements.txt <Br/>
