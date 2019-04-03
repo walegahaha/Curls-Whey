@@ -10,6 +10,7 @@ Image classifiers based on deep neural networks suffer from harassment caused by
 Paper
 ------------------------------------------------------------
 Yucheng Shi, Siyu Wang, Yahong Han. "Curls & Whey: Boosting Black-Box Adversarial Attacks." CVPR 2019 (Oral).
+https://arxiv.org/pdf/1904.01160.pdf
 
 Reference
 ------------------------------------------------------------
