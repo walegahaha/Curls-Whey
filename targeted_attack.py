@@ -91,6 +91,26 @@ def run_attack_curls_whey(model, image, label):
             access += 1
             if np.argmax(model.predictions(noise_temp + image)) == label:
                 noise = copy.deepcopy(noise_temp)
+
+    
+    while access < 850:
+        l2 = np.linalg.norm(image/255.0 - (noise+image)/255.0)
+
+        noise_reduce = np.random.random([64, 64, 3])
+        noise_reduce[noise_reduce <= 0.99] = 0
+        noise_reduce[noise_reduce > 0.99] = 1
+        noise_reduce = noise_reduce.astype(np.bool)
+
+        noise_temp = copy.deepcopy(noise)
+        noise_temp[noise_reduce] = 0
+        l2_ori = np.linalg.norm(image/255.0 - (noise+image)/255.0)
+        l2_new = np.linalg.norm(image/255.0 - (noise_temp+image)/255.0)
+        if l2_ori-l2_new >= 0.0:
+            access += 1
+            if np.argmax(model.predictions(noise_temp + image)) == label:
+                l2 = np.linalg.norm(image/255.0 - (noise_temp+image)/255.0)
+                noise = copy.deepcopy(noise_temp)
+
      
     perturbed_image = noise + image
     return perturbed_image
